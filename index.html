@@ -1,0 +1,104 @@
+<div class="container">
+    <h1 id="title">Pizza Pizza Pizza!</h1>
+    <p id="description">What are your opinions on pizza? We need to know!</p>
+    <form id="survey-form">
+      <div class="form-group">
+        <label id="name-label" for=name>Name
+        <input type="text" 
+               name="name" 
+               id="name" 
+               class="form-control" placeholder="Enter your name" required />
+          </label>
+          </div>
+        
+        <br>
+        <div class="form-group">
+          <label id="email-label" for=email>Email
+          <input type="email"
+                 name="email" 
+                 id="email" 
+                 class="form-control"
+  placeholder="Enter your email" required />
+            </label>
+        </div>
+        <br>
+        <div class="form-group">
+          <label id="pnumber-label" for="pnumber">Phone Number
+            <input type="text"
+                   name="pnumber" 
+                   id="pnumber" 
+                   class="form-control" placeholder="Enter your phone number" required />
+          </label>
+        </div>
+        <br>
+        <div class="form-group">
+          <label id="number-label" for="number">How old are you? (Optional)
+            <input type="number" name="number" id="number" min="1" max="100" class="form-control" placeholder="Age" required />
+          </label>
+        </div>
+        <br>
+        <div class="form-group">
+          <label id="dropdown" for="dropdown">Would you consider yourself an expert on all things pizza?
+            <select name="dropdown" id="dropdown" class="form-control" required>
+              <option disabled selected value>Select One</option>
+              <option value="no">What is pizza?</option>
+              <option value="somewhat">I'm somewhat familiar with pizza.</option>
+              <option value="yes">I know a lot about pizza.</option>
+              <option value="pizza-life">PIZZA IS LIFE!</option>
+            </select>
+          </label>
+        </div>
+        <br>
+        <div class="form-group">
+          <p>How do you identify?</p>
+          <label>
+            <input type="radio" name="gender" value="female" class="input-radio">Female
+          </label>
+          <label>
+            <input type="radio" name="gender" value="male" class="input-radio">Male</label>
+          <label>
+            <input type="radio" name="gender" value="no-answer" class="input-radio">Other/Prefer not to say</label>
+        </div>
+        <br>
+        <div class="form-group">
+          <p>What type of pizza do you eat? (Choose all that apply)</p>
+          <label>
+            <input class="input-checkbox" name="pizza" value="cheese" type="checkbox" />
+            Cheese</label>
+          <label>
+            <input class="input-checkbox" name="pizza" value="pepperoni" type="checkbox" />
+            Pepperoni</label>
+          <label>
+            <input class="input-checkbox" name="pizza" value="ham-and-pineapple" type="checkbox" />
+            Ham and Pineapple</label>
+          <label>
+            <input class="input-checkbox" name="pizza" value="italian-sausage" type="checkbox" />
+            Italian Sausage</label>
+          <label>
+            <input class="input-checkbox" name="pizza" value="meat-lovers" type="checkbox" />
+            Meat Lovers</label>
+          <label>
+            <input class="input-checkbox" name="pizza" value="veggie" type="checkbox" />
+            Veggie Lovers</label>
+          <label>
+            <input class="input-checkbox" name="pizza" value="brooklyn" type="checkbox" />
+            Brooklyn Style</label>
+          <label>
+            <input class="input-checkbox" name="pizza" value="new-york" type="checkbox" />
+            New York Style</label>
+          <label>
+            <input class="input-checkbox" name="pizza" value="deep-dish" type="checkbox" />
+            Deep Dish</label>
+          <label>
+            <input class="input-checkbox" name="pizza" value="any" type="checkbox" />
+            Any and All Pizza</label>
+        </div>
+        <div class="form-group">
+          <p>Is there anything else you'd like to tell us?</p>
+          <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" id="submit">Submit</button>
+        </div>
+    </form>
+  </div>
