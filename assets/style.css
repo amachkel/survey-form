@@ -12,8 +12,8 @@ p {
   font-size: 2rem;
 }
 body {
-  background-image: url("assets/pizza.jpg");
   background-color: #000000;
+background-image: url("https://raw.githubusercontent.com/amachkel/git_test/main/pizza-4952509_1920.jpg");
   background-size: 100%;
   background-position: center;
   background-attachment: fixed;
